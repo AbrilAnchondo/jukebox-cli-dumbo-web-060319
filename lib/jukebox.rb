@@ -48,7 +48,8 @@ end
 def run 
   help 
   puts "Please enter a command:"
-  gets.strip
+  command_input = gets.strip
+  
   
   
 end
