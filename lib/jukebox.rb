@@ -49,18 +49,8 @@ def run
   help 
   puts "Please enter a command:"
   command_input = gets.strip
-  while command_input != "exit" do
-    case command_input
-    when "list"
-      list
-    when "play"
-      play
-    when "help"
-      help
-    when "exit"
-      exit_jukebox
-      break
-    end
+  until command_input = "exit" do
+    
   end
   
   
