@@ -47,10 +47,11 @@ end
 
 def run(songs) 
   help 
-  command_input = ""
-  while command_input != "exit" do
-    puts "Please enter a command:"
+   puts "Please enter a command:"
     command_input = gets.strip
+  #command_input = ""
+  while command_input != "exit" do
+   
     case
     when  command_input == "list"
       list(songs)
@@ -62,7 +63,6 @@ def run(songs)
       exit_jukebox
     end 
   end
-    
 end
   
 
