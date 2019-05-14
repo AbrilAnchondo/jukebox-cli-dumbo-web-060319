@@ -47,9 +47,9 @@ end
 
 def run 
   help 
-  puts "Please enter a command:"
   command_input = nil 
   while command_input != "exit" do
+    puts "Please enter a command:"
     command_input = gets.strip
     case
     when  command_input == "list"
@@ -59,10 +59,10 @@ def run
     when  command_input =="help"
       help
     when  command_input == "exit" 
-      n
+      exit_jukebox
     end 
   end
-    exit_jukebox
+    
 end
   
 
