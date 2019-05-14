@@ -23,16 +23,7 @@ end
 
 def list(songs)
   songs.each_with_index do |song, index|
-    
-  puts
-  "1. Phoenix - 1901
-  2. Tokyo Police Club - Wait Up
-  3. Sufjan Stevens - Too Much
-  4. The Naked and the Famous - Young Blood
-  5. (Far From) Home - Tiga
-  6. The Cults - Abducted
-  7. Phoenix - Consolation Prizes
-  8. Harry Chapin - Cats in the Cradle
-  9. Amos Lee - Keep It Loose, Keep It Tight"
+    puts ""
+  
 end
 
