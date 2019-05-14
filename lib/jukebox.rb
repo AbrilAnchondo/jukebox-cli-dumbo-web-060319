@@ -52,9 +52,9 @@ def run
   while command_input != "exit" do
     case command_input
     when "list"
-      list(command_input)
+      list
     when "play"
-      play(command_input) 
+      play
     when "help"
       help
     when "exit"
