@@ -58,8 +58,8 @@ def run
       play(songs)
     when  command_input =="help"
       help
-    else 
-      nil
+    when  command_input == "exit" 
+      n
     end 
   end
     exit_jukebox
