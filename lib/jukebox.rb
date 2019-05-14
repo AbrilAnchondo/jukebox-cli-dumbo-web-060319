@@ -34,7 +34,6 @@ def play(songs)
     if song == user_input
       puts "Playing #{song}"
     end
-    
   end
 end
 
