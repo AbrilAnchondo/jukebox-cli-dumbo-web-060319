@@ -50,5 +50,14 @@ def run
   puts "Please enter a command:"
   command_input = gets.strip
   while command_input != "exit" do
+    case command_input
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "help"
+      help
+      
+  end
   
 
