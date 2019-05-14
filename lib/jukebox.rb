@@ -37,6 +37,7 @@ def play(songs)
    end
    if song != user_name_input || index != user_number_input
      puts "Invalid input, please try again"
+   end
  end
 end
 
