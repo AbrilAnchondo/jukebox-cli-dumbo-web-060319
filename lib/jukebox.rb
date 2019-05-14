@@ -50,7 +50,7 @@ def run
   puts "Please enter a command:"
   command_input = gets.strip
   case command_input
-  w
+  when ""
   
   
 end
