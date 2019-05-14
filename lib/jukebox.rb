@@ -47,7 +47,7 @@ end
 
 def run(songs) 
   help 
-  #command_input = nil 
+  command_input = ""
   while command_input != "exit" do
     puts "Please enter a command:"
     command_input = gets.strip
