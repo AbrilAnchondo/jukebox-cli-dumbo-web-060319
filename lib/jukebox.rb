@@ -61,8 +61,9 @@ def run
     else 
       nil
     end 
+  end
     exit_jukebox
-    end  
+      
   end
   
 
