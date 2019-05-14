@@ -22,6 +22,8 @@ def help
 end
 
 def list(songs)
+  songs.each_with_index do |song|
+    
   puts
   "1. Phoenix - 1901
   2. Tokyo Police Club - Wait Up
