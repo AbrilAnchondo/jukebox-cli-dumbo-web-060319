@@ -49,7 +49,20 @@ def run
   help 
   puts "Please enter a command:"
   command_input = gets.strip
-  
+  loop do 
+    if command_input == "list"
+      list
+    elsif command_input == "play"
+      play(songs) 
+    elsif command_input == "help"
+      help 
+    elsif command_input == "exit"
+      exit_jukebox
+    else 
+      nil
+    end
+    break 
+  end
 end 
   
 
