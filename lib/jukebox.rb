@@ -51,13 +51,14 @@ def run
   command_input = nil 
   while command_input != "exit" do
     command_input = gets.strip
-    case command_input
-    when "list"
+    case
+    when  command_input == "list"
       list(songs)
-    when "play"
+    when  command_input ==  "play"
       play(songs)
-    when "help"
+    when  command_input =="help"
       help
+      
       
   end
   
