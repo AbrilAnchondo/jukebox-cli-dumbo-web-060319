@@ -22,7 +22,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index do |song|
+  songs.each_with_index do |song, index|
     
   puts
   "1. Phoenix - 1901
