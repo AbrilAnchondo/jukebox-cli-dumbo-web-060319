@@ -20,3 +20,8 @@ def help
         - exit : exits this program"
   
 end
+
+def list(songs)
+  puts 
+  ""
+end
