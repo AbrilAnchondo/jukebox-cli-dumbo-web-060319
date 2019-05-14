@@ -49,8 +49,7 @@ def run
   help 
   puts "Please enter a command:"
   command_input = gets.strip
-  case command_input
-  when ""
+  
   
   
 end
