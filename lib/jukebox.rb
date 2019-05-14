@@ -49,7 +49,10 @@ def run
   help 
   puts "Please enter a command:"
   command_input = gets.strip
-  
+  while command_input != "exit" do
+    case command_input
+    when "list"
+      
   
   
 end
