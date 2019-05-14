@@ -48,8 +48,9 @@ end
 def run 
   help 
   puts "Please enter a command:"
-  command_input = gets.strip
+  command_input = nil 
   while command_input != "exit" do
+    command_input = gets.strip
     case command_input
     when "list"
       list(songs)
